@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo Property Site - Location</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/pie-chart.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/main.js"></script>
+</head>
+<body>
+<div id="site-wrapper">
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+		
+			<div class="navbar-header">
+			
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+			
+				<a class="navbar-brand" href="#">
+					<span class="glyphicon glyphicon-home"></span>
+					WebSiteName
+				</a>
+			</div>
+			
+			<ul class="nav navbar-nav collapse navbar-collapse" id="myNavbar">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Properties</a></li>
+				<li><a href="#">Location</a></li>
+				<li><a href="#">News</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+			
+			<div id="nav-phone-num">
+				<span class="glyphicon glyphicon-earphone"></span>+99 123 456 789
+			</div>
+			
+		</div>
+	</nav> <!-- nav bar -->
+	
+	<!--   *********************separator************************   -->
+	
+	<div id="subpage-news" class="subpage-top">
+		<div class="container-fluid">
+			<div class='page-name'>
+				<h1>NEWS</h1>
+			</div>
+		</div>
+	</div>
+
+	<!--   *********************separator************************   -->
+	
+	<div id="news">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-xs-12">
+				
+					<div class="news-individual">
+						<div class="individual-img"><img src="images/house1.jpeg"></img></div>
+						<div class="individual-date">
+							<div class="individual-day">18</div>
+							<div class="individual-month">Dec</div>
+						</div>
+						
+						<div class="individual-info">
+							<div class="individual-headline"><a href="#">I AM ANOTHER HEADLINE</a></div>
+							<span class="individual-author"><a href="#">Who Else</a></span> | 
+							<span class="news-comment">
+								<a href="#">
+									<span class="news-comment-count">2</span> <span class="comment-singular-plural">comments</span>
+								</a>
+							</span>
+						</div>
+						
+						<div class="individual-content">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+							<div class="individual-highlight"><span>L</span>orem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum"</div>
+							<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia</p>
+							<p>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+						</div>
+					</div> <!-- .news-individual -->
+					
+					<div class="individual-comments">
+						<div class="comments-title">Comments</div>
+						
+						<div class="individual-comment">
+							<div class="comment-img"><img src="images/people1.jpeg"></img></div>
+							<div class="comment-info">
+								<div class="comment-subtle">
+									<span class="commentor">Alan Smith</span> | <span class="comment-date">Jan 11, 2018</span> | <span class="comment-reply">Reply</span>
+								</div>
+								<div class="comment-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</div>
+							</div>
+						</div>
+						
+						<div class="individual-comment">
+							<div class="comment-img"><img src="images/people1.jpeg"></img></div>
+							<div class="comment-info">
+								<div class="comment-subtle">
+									<span class="commentor">Alan Smith</span> | <span class="comment-date">Jan 11, 2018</span> | <span class="comment-reply">Reply</span>
+								</div>
+								<div class="comment-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</div>
+							</div>
+						</div>
+						
+					</div> <!-- .individual-comments -->
+					
+					<div class="leave-comment">
+						<div class="leave-comment-title">Leave a comment</div>
+						<form action="#">
+							<div class="form-group">
+								<input type="name" class="form-control" id="comment-name" placeholder="Name" required>
+								<input type="email" class="form-control" id="comment-email" placeholder="Email" required>
+								<textarea type="text" class="form-control" id="comment-message" placeholder="Message" rows="8" required></textarea>
+								<button type="submit" class="btn">SEND MESSAGE</button>
+							</div>
+						</form>
+					</div> <!-- leave-comments -->
+					
+				</div> <!-- col-md-8 -->
+				
+				<div class="col-md-4 col-xs-12" id="news-sidebar">
+				
+					<div class="archives">
+						<div class="sidebar-title">Archives</div>
+						<ul>
+							<li><a href="#">Backyard Decoration</a></li>
+							<li><a href="#">Sales in Oct</a></li>
+							<li><a href="#">Property Talk</a></li>
+							<li><a href="#">Promotion in Somewhere</a></li>
+							<li><a href="#">Stamp Tax</a></li>
+						</ul>
+					</div> <!-- archives -->
+					
+					<div id="latest-posts">
+						<div class="sidebar-title">Latest Posts</div>
+						<div class="latest-posts-single">
+							<div class="latest-posts-single-img"><img src="images/people1.jpeg"></img></div>
+							<div class="latest-posts-single-title"><a href="#">I am just a headline</a></div>
+							<div class="latest-posts-single-info"><a href="#">By Somebody Else | 3 comments</a></div>
+						</div>
+						<div class="latest-posts-single">
+							<div class="latest-posts-single-img"><img src="images/people2.jpeg"></img></div>
+							<div class="latest-posts-single-title"><a href="#">I am just a headline</a></div>
+							<div class="latest-posts-single-info"><a href="#">By Somebody Else | 3 comments</a></div>
+						</div>
+						<div class="latest-posts-single">
+							<div class="latest-posts-single-img"><img src="images/people3.jpeg"></img></div>
+							<div class="latest-posts-single-title"><a href="#">I am just a headline</a></div>
+							<div class="latest-posts-single-info"><a href="#">By Somebody Else | 3 comments</a></div>
+						</div>
+					</div> <!-- latest-posts -->
+					
+					<div id="tags-cloud">
+						<div class="sidebar-title">Tags</div>
+						<div class="tags-container">
+							<div class="tags">Forestall</div>
+							<div class="tags">Garrulity</div>
+							<div class="tags">Snare</div>
+							<div class="tags">Stymie</div>
+							<div class="tags">Prolix</div>
+							<div class="tags">Wince</div>
+							<div class="tags">Lithe</div>
+							<div class="tags">Sententious</div>
+							<div class="tags">Servile</div>
+							<div class="tags">Duress</div>
+							<div class="tags">Facetious</div>
+							<div class="tags">Imminent</div>
+						</div>
+					</div> <!-- tags-cloud -->
+					
+				</div> <!-- #news-sidebar -->
+				
+			</div> <!-- row -->
+		</div> <!-- container -->
+	</div> <!-- news -->
+	
+	<!--   *********************separator************************   -->
+	
+	<footer>
+		<div id="footer-wrapper">
+			<div class="container">
+			
+				<div id="subscribe-title">
+					<h1>Subscribe to newsletter</h1>
+				</div>
+				
+				<div id="subscribe-field">
+					<div class="form-group input-group">
+						<input type="text" placeholder="Email Address" class="form-control input-lg">
+						<span class="input-group-addon">Subscribe</span>
+					</div>
+				</div>
+				
+				<div id="footer-stuffs">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-3 col-sm-6 col-xs-12">
+								<div class="logo-name">
+									<span class="glyphicon glyphicon-home"></span>
+									<p>WebSiteName</p>
+								</div>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+							</div>
+							
+							<div class="col-md-3 col-sm-6 col-xs-12">
+								<div class="footer-list-title">
+									Menu
+								</div>
+								<div class="footer-list">
+									<ul>
+										<li><a href="#">Home</a></li>
+										<li><a href="#">About</a></li>
+										<li><a href="#">Courses</a></li>
+										<li><a href="#">News</a></li>
+										<li><a href="#">Contact</a></li>
+									</ul>
+								</div>
+							</div>
+							
+							<div class="col-md-3 col-sm-6 col-xs-12">
+								<div class="footer-list-title">
+									Useful Links
+								</div>
+								<div class="footer-list">
+									<ul>
+										<li><a href="#">Testimonials</a></li>
+										<li><a href="#">FAQ</a></li>
+										<li><a href="#">Community</a></li>
+										<li><a href="#">Campus Pictures</a></li>
+										<li><a href="#">Tuitions</a></li>
+									</ul>
+								</div>
+							</div>
+							
+							<div class="col-md-3 col-sm-6 col-xs-12">
+								<div class="footer-list-title">
+									Contact
+								</div>
+								<div class="footer-list">
+									<ul>
+										<li>
+											<a href="#">
+												<span class="footer-icon">
+													<i class="fab fa-algolia"></i>
+												</span>
+											#1, Main Road, Somewhere
+											</a>
+										</li>
+										
+										<li>
+											<a href="#">
+												<span class="footer-icon">
+													<i class="fas fa-adjust"></i>
+												</span>
+											+12 345 678 999
+											</a>
+										</li>
+										
+										<li>
+											<a href="#">
+												<span class="footer-icon">
+													<i class="fas fa-american-sign-language-interpreting"></i>
+												</span>
+											example@example.com
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> <!-- footer-stuffs -->
+				
+				<div id="footer-credits">
+					<div class="row">
+						<div class="col-md-6 col-xs-12">
+							All the photos are free and downloaded from <span>Pexels</span>
+						</div>
+						
+						<div class="col-md-4 col-md-offset-2 col-xs-12">
+							<ul>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+								<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+								<li><a href="#"><i class="fab fa-weixin"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+			</div>  <!-- container -->
+		</div> <!-- footer-wrapper -->
+	</footer> <!-- footer -->
+	
+</div> <!-- site wrapper -->
+</body>
+</html>
